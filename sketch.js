@@ -19,20 +19,20 @@ function setup(){
     world = engine.world;
 
     //grounds/bases of the pyramids
-    ground1 = new Ground(600, 315, 270, 15);
+    ground1 = new Ground();
     ground2 = new Ground(1050, 180, 280, 15);
     ground3 = new Ground(1019, 490, 290, 15);
     //main base/ground
     ground4 = new Ground(640, 560, 1280, 20);
 
     //1st level of pyramid of ground3
-    block1 = new Block(466, 230, 30, 45);
-    block2 = new Block(481, 230, 30, 45);
-    block3 = new Block(496, 230, 30, 45);   
+    block1 = new Block(470, 230, 30, 45);
+    block2 = new Block(485, 230, 30, 45);
+    block3 = new Block(500, 230, 30, 45);   
     block4 = new Block(511, 230, 30, 45);
-    block5 = new Block(526, 230, 30, 45);   
-    block6 = new Block(541, 230, 30, 45);   
-    block7 = new Block(556, 230, 30, 45);
+    block5 = new Block(522, 230, 30, 45);   
+    block6 = new Block(537, 230, 30, 45);   
+    block7 = new Block(552, 230, 30, 45);
     
     //2nd level of pyramid of ground3
     block8 = new Block(474, 207, 30, 45);
@@ -56,12 +56,12 @@ function setup(){
     block22 = new Block(535, 161, 30, 45)
 
     //1st level of pyramid of ground1
-    block23 = new Block(261, 142, 30, 45);
-    block24 = new Block(276, 142, 30, 45);
-    block25 = new Block(291, 142, 30, 45);
-    block26 = new Block(306, 142, 30, 45);
-    block27 = new Block(321, 142, 30, 45);
-    block28 = new Block(336, 142, 30, 45);
+    block23 = new Block(271, 142, 30, 45);
+    block24 = new Block(286, 142, 30, 45);
+    block25 = new Block(301, 142, 30, 45);
+    block26 = new Block(316, 142, 30, 45);
+    block27 = new Block(331, 142, 30, 45);
+    block28 = new Block(346, 142, 30, 45);
 
     //2nd level of pyramid of ground1
     block29 = new Block(269, 119, 30, 45);
